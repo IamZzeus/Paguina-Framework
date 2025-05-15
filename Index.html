@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+    <header class="text-black p-4 rounded bg-primary text--sl-font-size-x-large ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xl-1"><img src="recursos/Logo.jpeg" alt="" style="height: 80px; border-radius: 10px;"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col-xl-1 p-1"><a href="index.html">Inicio</a></div>
+                <div class="col-xl-1 p-1"><a href="Servicios.html">Servicios</a></div>
+                <div class="col-xl-1 p-1"><a href="Sobre-Nosotros.html">Sobre Nosotros</a></div>
+                <div class="col-xl-1 p-1"><a href="Testimonios.html">Testimonios</a></div>
+                <div class="col-xl-1 p-1"><a href="Contacto.html">Contacto</a></div>
+            </div>
+    </header>
+    <main>
+        <div class="bloque"></div>
+        <div class="centro">
+            <sl-carousel pagination>
+                <sl-carousel-item>
+                    <img src="/recursos/Index-imagen.jpg" />
+                </sl-carousel-item>
+                <sl-carousel-item>
+                    <img src="recursos/Asesoramiento.jpg" />
+                </sl-carousel-item>
+                <sl-carousel-item>
+                    <img src="recursos/credito-2.jpg" />
+                </sl-carousel-item>
+                <sl-carousel-item>
+                    <img src="recursos/retiro.jpg" />
+                </sl-carousel-item>
+            </sl-carousel>
+        </div>
+
+        <h1 style="text-align: center;">Servicios</h1>
+        <sl-divider style="--spacing: 2rem;"></sl-divider>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="/recursos/Planificación para el retiro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan Personal de Retiro (PPR)</h5>
+                            <p class="card-text">Te ayudamos a diseñar un plan
+                                personalizado para garantizar tu
+                                bienestar en el futuro. ¡Disfruta de tu
+                                retiro con tranquilidad!</p>
+                            <a href="#" class="btn btn-primary">Concoe mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="recursos/credito-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Créditos para Pensionados</h5>
+                            <p class="card-text">Obtén créditos con tasas
+                                preferenciales y plazos flexibles
+                                diseñados especialmente para
+                                pensionados y jubilados</p>
+                            <a href="#" class="btn btn-primary">Concoe mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="recursos/Seguro de vida.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Seguros</h5>
+                            <p class="card-text">Protege a tu familia y asegura tu
+                                salud con nuestras pólizas
+                                diseñadas para brindarte
+                                tranquilidad en todo momento.</p>
+                            <a href="#" class="btn btn-primary">Concoe mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="recursos/Fondo-Retiro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Afore</h5>
+                            <p class="card-text">Administramos tus ahorros para el
+                                retiro con inversiones seguras y
+                                beneficios fiscales. ¡Garantiza un
+                                futuro tranquilo!</p>
+                            <a href="#" class="btn btn-primary">Concoe mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="recursos/Asesoría financiera.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pensiones</h5>
+                            <p class="card-text">Te asesoramos para maximizar tu
+                                pensión y corregir inconsistencias
+                                en tu registro. ¡Tu retiro en las
+                                mejores manos!</p>
+                            <a href="#" class="btn btn-primary">Concoe mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br><br>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col p-2">
+                <p>Enlaces Utiles</p>
+                <div class="badge-pulse">
+                    <sl-badge variant="primary" pill pulse class="p-1"><a href="index.html">Inicio</a></sl-badge><br>
+                    <sl-badge variant="primary" pill pulse class="p-1"><a href="Servicios.html">Servicios</a></sl-badge><br>
+                    <sl-badge variant="primary" pill pulse class="p-1"><a href="Sobre-Nosotros.html">Sobre Nosotros</a></sl-badge><br>
+                    <sl-badge variant="primary" pill pulse class="p-1"><a href="Testimonios.html">Testimonios</a></sl-badge><br>
+                    <sl-badge variant="primary" pill pulse><a href="Contacto.html">Contacto</a></sl-badge><br>
+                  </div>
+              </div>
+              <div class="col p-5">
+                <p>Escribenos</p>
+                <a href="https://www.facebook.com/ "><img src="recursos/facebook.png" alt=""></a>
+                <a href="https://wa.me/+524491965166"><img src="recursos/Whatsapp.png" alt=""></a>
+              </div>
+              <div class="col p-5">
+                <p>© 2025 Todos los derechos reservados</p>
+                <p>Proyecto en proceso</p>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+</body>
+
+</html>

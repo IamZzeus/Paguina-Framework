@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+    <link rel="stylesheet" href="Contacto.css">
+</head>
+
+<body>
+    <header class="text-black p-4 rounded bg-primary text--sl-font-size-x-large ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xl-1"><img src="recursos/Logo.jpeg" alt="" style="height: 80px; border-radius: 10px;">
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col-xl-1 p-1"><a href="index.html"
+                        style="color: black; text-decoration: none; font-size: 20px;">Inicio</a></div>
+                <div class="col-xl-1 p-1"><a href="Servicios.html"
+                        style="color: black; text-decoration: none; font-size: 20px;">Servicios</a></div>
+                <div class="col-xl-1 p-1"><a href="Sobre-Nosotros.html"
+                        style="color: black; text-decoration: none; font-size: 20px;">Sobre Nosotros</a></div>
+                <div class="col-xl-1 p-1"><a href="Testimonios.html"
+                        style="color: black; text-decoration: none; font-size: 20px;">Testimonios</a></div>
+                <div class="col-xl-1 p-1"><a href="Contacto.html"
+                        style="color: black; text-decoration: none; font-size: 20px;">Contacto</a></div>
+            </div>
+    </header>
+
+    <main>
+        <div class="bloque"></div>
+        <div class="centro">
+            <img src="recursos/Contacto.jpg">
+        </div>
+        <div class="textos">
+            <h1 style="text-align: center;">Contacto</h1>
+            <p>¿Tienes alguna pregunta o necesitas más información?
+                ¡No dudes en contactarnos!</p>
+            <sl-divider style="--spacing: 2rem;"></sl-divider>
+            <div class="container text-center">
+                <div class="row row-cols-md-2 row-cols-sm-1" id="TextoMol">
+                    <div class="col" id="imgtex">
+                        <div class="Contacto">
+                            <h2>Envíanos un mensaje</h2>
+                            <form action="#" method="POST">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Fulanito">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                                    <input type="number" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="123-456-7890">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <sl-button variant="primary">Enviar</sl-button>
+                            </form>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="animation-overview">
+                        <sl-animation name="bounce" duration="2000" play>
+                            <div class="box">
+                                <div class="col">
+                                    <div class="Informacion">
+                                        <h2>Información de contacto</h2>
+                                        <ul>
+                                            <li><strong>Dirección:</strong> Calle de la oficina, Ciudad, País</li>
+                                            <li><strong>Teléfono:</strong> +52 449 196 5166</li>
+                                            <li><strong>Correo electrónico:</strong> miguel.angel@telmexmail.com
+                                            </li>
+                                        </ul>
+                                        <h2>Horario de atención</h2>
+                                        <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </sl-animation>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col p-2">
+                    <p>Enlaces Utiles</p>
+                    <div class="badge-pulse">
+                        <sl-badge variant="primary" pill pulse class="p-1"><a
+                                href="index.html">Inicio</a></sl-badge><br>
+                        <sl-badge variant="primary" pill pulse class="p-1"><a
+                                href="Servicios.html">Servicios</a></sl-badge><br>
+                        <sl-badge variant="primary" pill pulse class="p-1"><a href="Sobre-Nosotros.html">Sobre
+                                Nosotros</a></sl-badge><br>
+                        <sl-badge variant="primary" pill pulse class="p-1"><a
+                                href="Testimonios.html">Testimonios</a></sl-badge><br>
+                        <sl-badge variant="primary" pill pulse><a href="Contacto.html">Contacto</a></sl-badge><br>
+                    </div>
+                </div>
+                <div class="col p-5">
+                    <p>Escribenos</p>
+                    <a href="https://www.facebook.com/ "><img src="recursos/facebook.png" alt=""></a>
+                    <a href="https://wa.me/+524491965166"><img src="recursos/Whatsapp.png" alt=""></a>
+                </div>
+                <div class="col p-5">
+                    <p>© 2025 Todos los derechos reservados</p>
+                    <p>Proyecto en proceso</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+
+</html>
